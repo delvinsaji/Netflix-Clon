@@ -1,0 +1,40 @@
+.rowimg1 {
+  display: block;
+  height: 250px;
+  padding-right: 280px;
+  background-size: 100%;
+}
+
+.rowimg3 {
+  display: block;
+  height: 250px;
+  padding-right: 480px;
+  background-size: 100%;
+}
+
+.rowimg2 {
+  display: block;
+  height: 250px;
+  padding-right: 480px;
+  background-size: 100%;
+}
+
+.innerinner1 {
+  width: 200px;
+  color: white;
+  height: 250px;
+  padding-left: 10px;
+}
+
+.innerinner1 h1 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.innerinner1 p {
+  font-size: 15px;
+}
+
+.innerinner {
+  display: none;
+}

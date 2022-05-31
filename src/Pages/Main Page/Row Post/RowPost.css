@@ -1,0 +1,39 @@
+.rowhead {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.rowpost {
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.imgbatches {
+  display: flex;
+  overflow-x: scroll;
+  /* flex: 0 0 auto; */
+}
+
+.imgbatches::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.imgbatches::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+.imgbatches::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.imgbatches::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
